@@ -3,5 +3,5 @@
 - php 7.1
 - composer
 ## Development
-- `composer install`
-- `php bin/console server:run`
+- `docker-compose up -d `
+- only the first time `docker-compose run composer composer install`
